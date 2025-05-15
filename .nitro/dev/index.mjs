@@ -1,31 +1,31 @@
 import process from 'node:process';globalThis._importMeta_={url:import.meta.url,env:process.env};import { tmpdir } from 'node:os';
-import destr from 'file:///Users/caotianxing/WebstormProjects/backend-mock/node_modules/.pnpm/destr@2.0.5/node_modules/destr/dist/index.mjs';
-import { defineEventHandler, handleCacheHeaders, splitCookiesString, createEvent, fetchWithEvent, isEvent, eventHandler, setHeaders, sendRedirect, proxyRequest, getRequestURL, getRequestHeader, getResponseHeader, getRequestHeaders, setResponseHeaders, setResponseStatus, send, createApp, createRouter as createRouter$1, toNodeListener, lazyEventHandler, createError, getRouterParam, readBody, getQuery as getQuery$1, getHeader, deleteCookie, setCookie, getCookie } from 'file:///Users/caotianxing/WebstormProjects/backend-mock/node_modules/.pnpm/h3@1.15.3/node_modules/h3/dist/index.mjs';
-import { createHooks } from 'file:///Users/caotianxing/WebstormProjects/backend-mock/node_modules/.pnpm/hookable@5.5.3/node_modules/hookable/dist/index.mjs';
-import { createFetch, Headers as Headers$1 } from 'file:///Users/caotianxing/WebstormProjects/backend-mock/node_modules/.pnpm/ofetch@1.4.1/node_modules/ofetch/dist/node.mjs';
-import { fetchNodeRequestHandler, callNodeRequestHandler } from 'file:///Users/caotianxing/WebstormProjects/backend-mock/node_modules/.pnpm/node-mock-http@1.0.0/node_modules/node-mock-http/dist/index.mjs';
-import { parseURL, withoutBase, joinURL, getQuery, withQuery } from 'file:///Users/caotianxing/WebstormProjects/backend-mock/node_modules/.pnpm/ufo@1.6.1/node_modules/ufo/dist/index.mjs';
-import { createStorage, prefixStorage } from 'file:///Users/caotianxing/WebstormProjects/backend-mock/node_modules/.pnpm/unstorage@1.16.0_db0@0.3.2_ioredis@5.6.1/node_modules/unstorage/dist/index.mjs';
-import unstorage_47drivers_47fs from 'file:///Users/caotianxing/WebstormProjects/backend-mock/node_modules/.pnpm/unstorage@1.16.0_db0@0.3.2_ioredis@5.6.1/node_modules/unstorage/drivers/fs.mjs';
-import { digest } from 'file:///Users/caotianxing/WebstormProjects/backend-mock/node_modules/.pnpm/ohash@2.0.11/node_modules/ohash/dist/index.mjs';
-import { klona } from 'file:///Users/caotianxing/WebstormProjects/backend-mock/node_modules/.pnpm/klona@2.0.6/node_modules/klona/dist/index.mjs';
-import defu, { defuFn } from 'file:///Users/caotianxing/WebstormProjects/backend-mock/node_modules/.pnpm/defu@6.1.4/node_modules/defu/dist/defu.mjs';
-import { snakeCase } from 'file:///Users/caotianxing/WebstormProjects/backend-mock/node_modules/.pnpm/scule@1.3.0/node_modules/scule/dist/index.mjs';
-import { getContext } from 'file:///Users/caotianxing/WebstormProjects/backend-mock/node_modules/.pnpm/unctx@2.4.1/node_modules/unctx/dist/index.mjs';
-import { toRouteMatcher, createRouter } from 'file:///Users/caotianxing/WebstormProjects/backend-mock/node_modules/.pnpm/radix3@1.1.2/node_modules/radix3/dist/index.mjs';
+import destr from 'file:///Users/caotianxing/WebstormProjects/vben-backend-mock/node_modules/.pnpm/destr@2.0.5/node_modules/destr/dist/index.mjs';
+import { defineEventHandler, handleCacheHeaders, splitCookiesString, createEvent, fetchWithEvent, isEvent, eventHandler, setHeaders, sendRedirect, proxyRequest, getRequestURL, getRequestHeader, getResponseHeader, getRequestHeaders, setResponseHeaders, setResponseStatus, send, createApp, createRouter as createRouter$1, toNodeListener, lazyEventHandler, createError, getRouterParam, readBody, getQuery as getQuery$1, getHeader, deleteCookie, setCookie, getCookie } from 'file:///Users/caotianxing/WebstormProjects/vben-backend-mock/node_modules/.pnpm/h3@1.15.3/node_modules/h3/dist/index.mjs';
+import { createHooks } from 'file:///Users/caotianxing/WebstormProjects/vben-backend-mock/node_modules/.pnpm/hookable@5.5.3/node_modules/hookable/dist/index.mjs';
+import { createFetch, Headers as Headers$1 } from 'file:///Users/caotianxing/WebstormProjects/vben-backend-mock/node_modules/.pnpm/ofetch@1.4.1/node_modules/ofetch/dist/node.mjs';
+import { fetchNodeRequestHandler, callNodeRequestHandler } from 'file:///Users/caotianxing/WebstormProjects/vben-backend-mock/node_modules/.pnpm/node-mock-http@1.0.0/node_modules/node-mock-http/dist/index.mjs';
+import { parseURL, withoutBase, joinURL, getQuery, withQuery } from 'file:///Users/caotianxing/WebstormProjects/vben-backend-mock/node_modules/.pnpm/ufo@1.6.1/node_modules/ufo/dist/index.mjs';
+import { createStorage, prefixStorage } from 'file:///Users/caotianxing/WebstormProjects/vben-backend-mock/node_modules/.pnpm/unstorage@1.16.0_db0@0.3.2_ioredis@5.6.1/node_modules/unstorage/dist/index.mjs';
+import unstorage_47drivers_47fs from 'file:///Users/caotianxing/WebstormProjects/vben-backend-mock/node_modules/.pnpm/unstorage@1.16.0_db0@0.3.2_ioredis@5.6.1/node_modules/unstorage/drivers/fs.mjs';
+import { digest } from 'file:///Users/caotianxing/WebstormProjects/vben-backend-mock/node_modules/.pnpm/ohash@2.0.11/node_modules/ohash/dist/index.mjs';
+import { klona } from 'file:///Users/caotianxing/WebstormProjects/vben-backend-mock/node_modules/.pnpm/klona@2.0.6/node_modules/klona/dist/index.mjs';
+import defu, { defuFn } from 'file:///Users/caotianxing/WebstormProjects/vben-backend-mock/node_modules/.pnpm/defu@6.1.4/node_modules/defu/dist/defu.mjs';
+import { snakeCase } from 'file:///Users/caotianxing/WebstormProjects/vben-backend-mock/node_modules/.pnpm/scule@1.3.0/node_modules/scule/dist/index.mjs';
+import { getContext } from 'file:///Users/caotianxing/WebstormProjects/vben-backend-mock/node_modules/.pnpm/unctx@2.4.1/node_modules/unctx/dist/index.mjs';
+import { toRouteMatcher, createRouter } from 'file:///Users/caotianxing/WebstormProjects/vben-backend-mock/node_modules/.pnpm/radix3@1.1.2/node_modules/radix3/dist/index.mjs';
 import { readFile } from 'node:fs/promises';
 import { resolve, dirname, join } from 'node:path';
-import consola from 'file:///Users/caotianxing/WebstormProjects/backend-mock/node_modules/.pnpm/consola@3.4.2/node_modules/consola/dist/index.mjs';
-import { ErrorParser } from 'file:///Users/caotianxing/WebstormProjects/backend-mock/node_modules/.pnpm/youch-core@0.3.2/node_modules/youch-core/build/index.js';
-import { Youch } from 'file:///Users/caotianxing/WebstormProjects/backend-mock/node_modules/.pnpm/youch@4.1.0-beta.7/node_modules/youch/build/index.js';
-import { SourceMapConsumer } from 'file:///Users/caotianxing/WebstormProjects/backend-mock/node_modules/.pnpm/source-map@0.7.4/node_modules/source-map/source-map.js';
+import consola from 'file:///Users/caotianxing/WebstormProjects/vben-backend-mock/node_modules/.pnpm/consola@3.4.2/node_modules/consola/dist/index.mjs';
+import { ErrorParser } from 'file:///Users/caotianxing/WebstormProjects/vben-backend-mock/node_modules/.pnpm/youch-core@0.3.2/node_modules/youch-core/build/index.js';
+import { Youch } from 'file:///Users/caotianxing/WebstormProjects/vben-backend-mock/node_modules/.pnpm/youch@4.1.0-beta.7/node_modules/youch/build/index.js';
+import { SourceMapConsumer } from 'file:///Users/caotianxing/WebstormProjects/vben-backend-mock/node_modules/.pnpm/source-map@0.7.4/node_modules/source-map/source-map.js';
 import { Server } from 'node:http';
 import nodeCrypto from 'node:crypto';
 import { parentPort, threadId } from 'node:worker_threads';
-import { faker } from 'file:///Users/caotianxing/WebstormProjects/backend-mock/node_modules/.pnpm/@faker-js+faker@9.7.0/node_modules/@faker-js/faker/dist/index.js';
-import jwt from 'file:///Users/caotianxing/WebstormProjects/backend-mock/node_modules/.pnpm/jsonwebtoken@9.0.2/node_modules/jsonwebtoken/index.js';
+import { faker } from 'file:///Users/caotianxing/WebstormProjects/vben-backend-mock/node_modules/.pnpm/@faker-js+faker@9.7.0/node_modules/@faker-js/faker/dist/index.js';
+import jwt from 'file:///Users/caotianxing/WebstormProjects/vben-backend-mock/node_modules/.pnpm/jsonwebtoken@9.0.2/node_modules/jsonwebtoken/index.js';
 
-const serverAssets = [{"baseName":"server","dir":"/Users/caotianxing/WebstormProjects/backend-mock/assets"}];
+const serverAssets = [{"baseName":"server","dir":"/Users/caotianxing/WebstormProjects/vben-backend-mock/assets"}];
 
 const assets = createStorage();
 
@@ -37,11 +37,11 @@ const storage = createStorage({});
 
 storage.mount('/assets', assets);
 
-storage.mount('root', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"/Users/caotianxing/WebstormProjects/backend-mock"}));
-storage.mount('src', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"/Users/caotianxing/WebstormProjects/backend-mock"}));
-storage.mount('build', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"/Users/caotianxing/WebstormProjects/backend-mock/.nitro"}));
-storage.mount('cache', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"/Users/caotianxing/WebstormProjects/backend-mock/.nitro/cache"}));
-storage.mount('data', unstorage_47drivers_47fs({"driver":"fs","base":"/Users/caotianxing/WebstormProjects/backend-mock/.data/kv"}));
+storage.mount('root', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"/Users/caotianxing/WebstormProjects/vben-backend-mock"}));
+storage.mount('src', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"/Users/caotianxing/WebstormProjects/vben-backend-mock"}));
+storage.mount('build', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"/Users/caotianxing/WebstormProjects/vben-backend-mock/.nitro"}));
+storage.mount('cache', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"/Users/caotianxing/WebstormProjects/vben-backend-mock/.nitro/cache"}));
+storage.mount('data', unstorage_47drivers_47fs({"driver":"fs","base":"/Users/caotianxing/WebstormProjects/vben-backend-mock/.data/kv"}));
 
 function useStorage(base = "") {
   return base ? prefixStorage(storage, base) : storage;
@@ -970,7 +970,7 @@ function pagination(pageNo, pageSize, array) {
   return offset + Number(pageSize) >= array.length ? array.slice(offset) : array.slice(offset, offset + Number(pageSize));
 }
 
-const _XzoncJ = defineEventHandler(async (event) => {
+const _2cfgOi = defineEventHandler(async (event) => {
   var _a;
   event.node.res.setHeader(
     "Access-Control-Allow-Origin",
@@ -986,49 +986,49 @@ const _XzoncJ = defineEventHandler(async (event) => {
   }
 });
 
-const _lazy_A6yT9y = () => Promise.resolve().then(function () { return codes$1; });
-const _lazy_qh8r0L = () => Promise.resolve().then(function () { return login_post$1; });
-const _lazy_OFoUK0 = () => Promise.resolve().then(function () { return logout_post$1; });
-const _lazy_0xjdhp = () => Promise.resolve().then(function () { return refresh_post$1; });
-const _lazy__Pi4Gx = () => Promise.resolve().then(function () { return all$1; });
-const _lazy_I7Ng9P = () => Promise.resolve().then(function () { return status$1; });
-const _lazy_T_dxtQ = () => Promise.resolve().then(function () { return _post$1; });
-const _lazy_yUVFsC = () => Promise.resolve().then(function () { return _id__delete$1; });
-const _lazy_yL8g_S = () => Promise.resolve().then(function () { return _id__put$1; });
-const _lazy_xL5_Fj = () => Promise.resolve().then(function () { return list$7; });
-const _lazy_UIHUiG = () => Promise.resolve().then(function () { return list$5; });
-const _lazy_103LAI = () => Promise.resolve().then(function () { return nameExists$1; });
-const _lazy_vuG5li = () => Promise.resolve().then(function () { return pathExists$1; });
-const _lazy_9Pi1HP = () => Promise.resolve().then(function () { return list$3; });
-const _lazy_QBK3IK = () => Promise.resolve().then(function () { return list$1; });
-const _lazy_vBVM55 = () => Promise.resolve().then(function () { return test_get$1; });
-const _lazy_si5rhE = () => Promise.resolve().then(function () { return test_post$1; });
-const _lazy_xvCwEr = () => Promise.resolve().then(function () { return upload$1; });
-const _lazy_TMzJo4 = () => Promise.resolve().then(function () { return info$1; });
-const _lazy_WzZJ_H = () => Promise.resolve().then(function () { return _____$1; });
+const _lazy_8Fw10b = () => Promise.resolve().then(function () { return codes$1; });
+const _lazy_HvuN9P = () => Promise.resolve().then(function () { return login_post$1; });
+const _lazy_O5ihL1 = () => Promise.resolve().then(function () { return logout_post$1; });
+const _lazy_Cj5kRv = () => Promise.resolve().then(function () { return refresh_post$1; });
+const _lazy__AbTC8 = () => Promise.resolve().then(function () { return all$1; });
+const _lazy_7kX5t2 = () => Promise.resolve().then(function () { return status$1; });
+const _lazy_SyZzaQ = () => Promise.resolve().then(function () { return _post$1; });
+const _lazy_4r7XMh = () => Promise.resolve().then(function () { return _id__delete$1; });
+const _lazy_B5PXQX = () => Promise.resolve().then(function () { return _id__put$1; });
+const _lazy_ikBHb8 = () => Promise.resolve().then(function () { return list$7; });
+const _lazy_VESYpl = () => Promise.resolve().then(function () { return list$5; });
+const _lazy_XZg5ut = () => Promise.resolve().then(function () { return nameExists$1; });
+const _lazy_edovzD = () => Promise.resolve().then(function () { return pathExists$1; });
+const _lazy_Bw6U6P = () => Promise.resolve().then(function () { return list$3; });
+const _lazy_6GzEKi = () => Promise.resolve().then(function () { return list$1; });
+const _lazy_GWVfyc = () => Promise.resolve().then(function () { return test_get$1; });
+const _lazy_zBjtUM = () => Promise.resolve().then(function () { return test_post$1; });
+const _lazy_l2y1yy = () => Promise.resolve().then(function () { return upload$1; });
+const _lazy_titM8R = () => Promise.resolve().then(function () { return info$1; });
+const _lazy_8T0dcL = () => Promise.resolve().then(function () { return _____$1; });
 
 const handlers = [
-  { route: '', handler: _XzoncJ, lazy: false, middleware: true, method: undefined },
-  { route: '/api/auth/codes', handler: _lazy_A6yT9y, lazy: true, middleware: false, method: undefined },
-  { route: '/api/auth/login', handler: _lazy_qh8r0L, lazy: true, middleware: false, method: "post" },
-  { route: '/api/auth/logout', handler: _lazy_OFoUK0, lazy: true, middleware: false, method: "post" },
-  { route: '/api/auth/refresh', handler: _lazy_0xjdhp, lazy: true, middleware: false, method: "post" },
-  { route: '/api/menu/all', handler: _lazy__Pi4Gx, lazy: true, middleware: false, method: undefined },
-  { route: '/api/status', handler: _lazy_I7Ng9P, lazy: true, middleware: false, method: undefined },
-  { route: '/api/system/dept/', handler: _lazy_T_dxtQ, lazy: true, middleware: false, method: "post" },
-  { route: '/api/system/dept/:id', handler: _lazy_yUVFsC, lazy: true, middleware: false, method: "delete" },
-  { route: '/api/system/dept/:id', handler: _lazy_yL8g_S, lazy: true, middleware: false, method: "put" },
-  { route: '/api/system/dept/list', handler: _lazy_xL5_Fj, lazy: true, middleware: false, method: undefined },
-  { route: '/api/system/menu/list', handler: _lazy_UIHUiG, lazy: true, middleware: false, method: undefined },
-  { route: '/api/system/menu/name-exists', handler: _lazy_103LAI, lazy: true, middleware: false, method: undefined },
-  { route: '/api/system/menu/path-exists', handler: _lazy_vuG5li, lazy: true, middleware: false, method: undefined },
-  { route: '/api/system/role/list', handler: _lazy_9Pi1HP, lazy: true, middleware: false, method: undefined },
-  { route: '/api/table/list', handler: _lazy_QBK3IK, lazy: true, middleware: false, method: undefined },
-  { route: '/api/test', handler: _lazy_vBVM55, lazy: true, middleware: false, method: "get" },
-  { route: '/api/test', handler: _lazy_si5rhE, lazy: true, middleware: false, method: "post" },
-  { route: '/api/upload', handler: _lazy_xvCwEr, lazy: true, middleware: false, method: undefined },
-  { route: '/api/user/info', handler: _lazy_TMzJo4, lazy: true, middleware: false, method: undefined },
-  { route: '/**', handler: _lazy_WzZJ_H, lazy: true, middleware: false, method: undefined }
+  { route: '', handler: _2cfgOi, lazy: false, middleware: true, method: undefined },
+  { route: '/api/auth/codes', handler: _lazy_8Fw10b, lazy: true, middleware: false, method: undefined },
+  { route: '/api/auth/login', handler: _lazy_HvuN9P, lazy: true, middleware: false, method: "post" },
+  { route: '/api/auth/logout', handler: _lazy_O5ihL1, lazy: true, middleware: false, method: "post" },
+  { route: '/api/auth/refresh', handler: _lazy_Cj5kRv, lazy: true, middleware: false, method: "post" },
+  { route: '/api/menu/all', handler: _lazy__AbTC8, lazy: true, middleware: false, method: undefined },
+  { route: '/api/status', handler: _lazy_7kX5t2, lazy: true, middleware: false, method: undefined },
+  { route: '/api/system/dept/', handler: _lazy_SyZzaQ, lazy: true, middleware: false, method: "post" },
+  { route: '/api/system/dept/:id', handler: _lazy_4r7XMh, lazy: true, middleware: false, method: "delete" },
+  { route: '/api/system/dept/:id', handler: _lazy_B5PXQX, lazy: true, middleware: false, method: "put" },
+  { route: '/api/system/dept/list', handler: _lazy_ikBHb8, lazy: true, middleware: false, method: undefined },
+  { route: '/api/system/menu/list', handler: _lazy_VESYpl, lazy: true, middleware: false, method: undefined },
+  { route: '/api/system/menu/name-exists', handler: _lazy_XZg5ut, lazy: true, middleware: false, method: undefined },
+  { route: '/api/system/menu/path-exists', handler: _lazy_edovzD, lazy: true, middleware: false, method: undefined },
+  { route: '/api/system/role/list', handler: _lazy_Bw6U6P, lazy: true, middleware: false, method: undefined },
+  { route: '/api/table/list', handler: _lazy_6GzEKi, lazy: true, middleware: false, method: undefined },
+  { route: '/api/test', handler: _lazy_GWVfyc, lazy: true, middleware: false, method: "get" },
+  { route: '/api/test', handler: _lazy_zBjtUM, lazy: true, middleware: false, method: "post" },
+  { route: '/api/upload', handler: _lazy_l2y1yy, lazy: true, middleware: false, method: undefined },
+  { route: '/api/user/info', handler: _lazy_titM8R, lazy: true, middleware: false, method: undefined },
+  { route: '/**', handler: _lazy_8T0dcL, lazy: true, middleware: false, method: undefined }
 ];
 
 function createNitroApp() {
